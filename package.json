@@ -33,7 +33,7 @@
     "@types/react-router-dom": "^4.0.8",
     "babel-eslint": "^7.2.1",
     "change-case": "^3.0.1",
-    "codeclimate-test-reporter": "^0.4.1",
+    "codeclimate-test-reporter": "^0.5.1",
     "disqus-react": "^1.0.5",
     "gatsby": "latest",
     "gatsby-link": "latest",
