@@ -21,7 +21,9 @@
     "precommit": "lint-staged",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "storybook:build": "build-storybook -c .storybook -o public/docs",
-    "codeclimate": "codeclimate-test-reporter < coverage/lcov.info"
+    "codeclimate": "codeclimate-test-reporter < coverage/lcov.info",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@types/lodash": "^4.14.63",
@@ -33,7 +35,7 @@
     "@types/react-router-dom": "^4.0.8",
     "babel-eslint": "^7.2.1",
     "change-case": "^3.0.1",
-    "codeclimate-test-reporter": "^0.4.1",
+    "codeclimate-test-reporter": "^0.5.1",
     "disqus-react": "^1.0.5",
     "gatsby": "latest",
     "gatsby-link": "latest",
@@ -41,11 +43,11 @@
     "gatsby-plugin-google-analytics": "latest",
     "gatsby-plugin-manifest": "latest",
     "gatsby-plugin-offline": "latest",
-    "gatsby-plugin-sharp": "latest",
+    "gatsby-plugin-sharp": "2.0.5",
     "gatsby-plugin-typescript": "latest",
     "gatsby-remark-autolink-headers": "latest",
     "gatsby-remark-copy-linked-files": "latest",
-    "gatsby-remark-images": "latest",
+    "gatsby-remark-images": "2.0.1",
     "gatsby-remark-prismjs": "latest",
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-json": "latest",
@@ -62,7 +64,8 @@
     "semantic-ui-react": "^0.74.2",
     "slash": "1.0.0",
     "ts-loader": "^2.3.7",
-    "typescript": "2.5.3"
+    "typescript": "2.5.3",
+    "snyk": "^1.104.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.14",
@@ -165,5 +168,6 @@
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
-  }
+  },
+  "snyk": true
 }
