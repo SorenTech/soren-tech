@@ -49,7 +49,7 @@
     "gatsby-remark-prismjs": "latest",
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-json": "latest",
-    "gatsby-transformer-remark": "latest",
+    "gatsby-transformer-remark": "5.25.1",
     "gatsby-transformer-sharp": "latest",
     "graphql-code-generator": "^0.5.2",
     "gray-matter": "^2.1.1",
