@@ -41,7 +41,7 @@
     "gatsby-plugin-google-analytics": "latest",
     "gatsby-plugin-manifest": "latest",
     "gatsby-plugin-offline": "latest",
-    "gatsby-plugin-sharp": "latest",
+    "gatsby-plugin-sharp": "4.25.1",
     "gatsby-plugin-typescript": "latest",
     "gatsby-remark-autolink-headers": "latest",
     "gatsby-remark-copy-linked-files": "latest",
